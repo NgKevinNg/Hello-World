@@ -1,4 +1,9 @@
 # Hello-World
 Pies r nice
 
-i like apple pie
+var person = prompt("Please enter your name", "Harry Potter");
+if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+}
+Try it Yourself »
